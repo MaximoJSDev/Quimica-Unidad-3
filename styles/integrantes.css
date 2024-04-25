@@ -1,0 +1,60 @@
+.main {
+  width: 100%;
+  max-width: 1120px;
+  margin: auto;
+  margin-block: 40px;
+  padding-inline: 30px;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 58px;
+  padding-block: 20px;
+}
+
+h1 img {
+  height: 60px;
+}
+
+.banner {
+  margin-top: 10px;
+  aspect-ratio: 42/9;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+ul {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul img {
+  height: 50px;
+
+}
+
+li {
+  width: calc(100%/2 - 10px);
+  font-size: 24px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  background-color: #1b2031;
+  padding: 22px 10px;
+  gap: 10px;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+
+.role {
+  text-transform: capitalize;
+  display: block;
+  font-size: 20px;
+  opacity: 0.5;
+}
