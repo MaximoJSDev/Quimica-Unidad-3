@@ -10,7 +10,6 @@ h1 {
   display: flex;
   align-items: center;
   column-gap: 10px;
-  font-size: 58px;
   padding-block: 20px;
 }
 
@@ -26,7 +25,7 @@ h1 img {
   border-radius: 15px;
 }
 
-ul {
+.main ul {
   margin-top: 10px;
   display: flex;
   gap: 15px;
@@ -34,12 +33,13 @@ ul {
   flex-wrap: wrap;
 }
 
-ul img {
+
+.main ul img {
   height: 50px;
 
 }
 
-li {
+.main li {
   width: calc(100%/2 - 10px);
   font-size: 24px;
   list-style: none;
@@ -52,9 +52,36 @@ li {
   text-transform: uppercase;
 }
 
-.role {
+.main li .role {
   text-transform: capitalize;
   display: block;
   font-size: 20px;
   opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+
+  .main ul {
+    flex-direction: column;
+  }
+
+  .main li {
+    width: 100%;
+  }
+
+  .banner {
+    height: 120px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .main li {
+    font-size: 22px;
+  }
+
+  .main li .role {
+    font-size: 18px;
+  }
+
 }
