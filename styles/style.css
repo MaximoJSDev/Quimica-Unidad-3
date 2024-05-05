@@ -1,37 +1,10 @@
-.header {
-  margin-top: 30px;
-  max-width: 1120px;
-  margin: auto;
-
-  div {
-    padding-inline: 30px;
-  }
-
-  img {
-    margin-top: 10px;
-    aspect-ratio: 20/9;
-    width: 86%;
-    object-fit: cover;
-    border-radius: 15px;
-  }
-}
-
-
 .article {
   margin-bottom: 30px;
 }
 
-
 .main h2 {
   font-size: 42px;
   margin-block: 20px;
-}
-
-.main p {
-  font-size: 24px;
-  margin-bottom: 30px;
-  line-height: 1.45;
-  text-wrap: balance;
 }
 
 .main img {
@@ -39,88 +12,4 @@
   width: 80%;
   object-fit: cover;
   border-radius: 15px;
-}
-
-.section {
-  width: 100%;
-  max-width: 1120px;
-  margin: auto;
-  margin-block: 40px;
-  row-gap: 10px;
-}
-
-.section .integrantes {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 32px;
-  letter-spacing: 0.5px;
-  text-decoration: underline;
-  color: #fff;
-  margin-bottom: 30px;
-}
-
-.section img {
-  height: 40px;
-  width: 40px;
-  object-fit: cover;
-}
-
-.section h3 {
-  font-size: 42px;
-}
-
-.section ul {
-  padding-inline: 35px;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  row-gap: 25px;
-}
-
-
-.section li {
-  font-size: 28px;
-}
-
-.section li a {
-  text-decoration: none;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.section li a::hover {
-  color: aqua;
-}
-
-.section li img {
-
-  height: 30px;
-  width: 30px;
-}
-
-@media (max-width: 900px) {
-
-  .header img {
-    width: 100%;
-  }
-}
-
-@media (max-width: 700px) {
-  .main .img {
-    width: 100%;
-  }
-
-
-  .main p {
-
-    font-size: 22px;
-  }
-
-  .section ul {
-    padding: 0;
-    list-style: none;
-  }
 }
