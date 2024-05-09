@@ -35,21 +35,22 @@ h1 img {
 
 .main p {
   margin-bottom: 0;
+  font-size: 22px;
 }
 
 .main ul img {
-  height: 50px;
+  border-radius: 20px;
+  height: 55px;
 
 }
 
 .main li {
-  width: calc(100%/2 - 10px);
-  font-size: 24px;
+  width: calc(100%/2 - 12px);
   list-style: none;
   display: flex;
   align-items: center;
   background-color: #1b2031;
-  padding: 22px 10px;
+  padding: 20px 10px;
   gap: 10px;
   border-radius: 15px;
   text-transform: uppercase;
